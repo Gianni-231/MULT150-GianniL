@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 24
-  productGUID: 29092b3e16db4e64da76dc4dff463910
+  productGUID: 642da635059a55549bd36c61f9a0eee7
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Glambarri_hour1
+  productName: glambarri_Hour1
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -721,10 +721,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 6e85a693-338c-4885-9292-b8da7f5be571
+  cloudProjectId: 5e8efe55-6805-45d0-832e-7c33ba99eb5d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Glambarri_hour1 2026-02-06_19-12-05
+  projectName: glambarri_Hour1
   organizationId: wowza1232
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
