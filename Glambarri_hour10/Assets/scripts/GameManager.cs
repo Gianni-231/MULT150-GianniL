@@ -38,11 +38,11 @@ void OnGUI() {
 
 			if(isFinished)
 			{
-				message = "Click or Press Enter to Play Again";
+				message = "Finished! replay in construction";
 			}
 			else
 			{
-				message = "Click or Press Enter to Play";
+				message = "Press Enter to Play";
 			}
 
 			//Define a new rectangle for the UI on the screen

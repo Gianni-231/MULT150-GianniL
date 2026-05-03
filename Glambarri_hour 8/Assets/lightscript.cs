@@ -18,5 +18,6 @@ public class lightscript : MonoBehaviour
         {
             lightComponent.enabled =!lightComponent.enabled;
         }
+        
     }
 }
