@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 41114109}
   - component: {fileID: 41114108}
   - component: {fileID: 41114112}
+  - component: {fileID: 41114113}
   m_Layer: 0
   m_Name: TriggerZone
   m_TagString: Untagged
@@ -232,6 +233,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f182e44ccf45b41adeaf6c6a613bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &41114113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41114107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &54536002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -834,7 +848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerupPrefab: {fileID: 2780659760202635741, guid: b991a27022b2ee34aa2016a019c1297c, type: 3}
   obstaclePrefab: {fileID: 1110940942003439845, guid: 504e1a2030ef7dc4c9fff8261ff79b94, type: 3}
-  spawnCycle: 0.2
+  spawnCycle: 0.5
 --- !u!114 &1532258582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,3 +1010,19 @@ MonoBehaviour:
   bounds: 3
   strafeSpeed: 4
   phaseCooldown: 2
+--- !u!54 &1795021094
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795021089}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
