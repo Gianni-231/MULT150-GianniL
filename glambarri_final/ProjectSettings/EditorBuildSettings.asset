@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: baa5b53dcf2823c409dc83b5f4e80e3c
+  - enabled: 1
+    path: Assets/Scenes/Glambarri_hour6.unity
+    guid: 3f35fa65192e29940a29dcb78618d711
+  - enabled: 1
+    path: Assets/Scenes/game over.unity
+    guid: 7f631bfd63e1d3a4b898202cac013d4a
+  m_configObjects: {}
