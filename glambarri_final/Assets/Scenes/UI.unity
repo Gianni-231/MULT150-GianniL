@@ -637,7 +637,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Amazing Runner
+  m_text: The OIIA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -646,8 +646,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278979597
-  m_fontColor: {r: 0.051212788, g: 0.045484133, b: 0.045484133, a: 1}
+    rgba: 4278190288
+  m_fontColor: {r: 0.81671154, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -749,7 +749,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -169, y: 143}
+  m_AnchoredPosition: {x: 601, y: 852}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041242015
@@ -772,7 +772,38 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: get to the end complete the game
+  m_text: " 1 - directional light (colour, intensity, etc)\r\n        modifications:
+    made it personal light intensity 2.5 range 10\r\n\r\n        2 - fog\r\n       
+    modifications: \r\n         used particle system start size shape circle 45 emission
+    15\r\n        3 - create & apply skybox and customise it (atmosphere thickness,
+    sky tint, exposure, etc)\r\n        modifications: \r\n        Starry night sky
+    space galaxy seamless pattern saved it in google\r\n        PLAYER\r\n       
+    4 - create and attach a complex object comprised of 3 or more shapes and make
+    it so that it is visible when the game is played.\r\n        -If you're having
+    trouble coming up with ideas, create a simple figure out of shapes like a Minecraft
+    or Roblox character!\r\n        modifications: \r\n         two cubes for arms
+    and a capsule for body\r\n        5 - use gameobject hierarchy to keep it organised\r\n       
+    [no record necessary]\r\n\r\n        FINISH ZONE\r\n        6 - convert to prefab,
+    create 2 variants, and add an instance of each variant around the scene\r\n       
+    modifications: \r\n         made the first finish zone a flag with text and the
+    secret risky one is a cabin made with lots of cubes \r\n        7 - modify the
+    light component of the variants so that all have a different colour\r\n       
+    [no record necessary]\r\n        made the point light stick to player and just
+    enough to see around him\r\n        8 - add a particle system component to the
+    original prefab and customise at least 3 parameters\r\n        -All instances
+    will update to include the particle system\r\n        -Don't forget to reassign
+    any public fields on the instances to get them to work\r\n        parameter 1:
+    color green\r\n        parameter 2: shape is mesh sphere \r\n        parameter
+    3: start speed is 2.5\r\n\r\n        TERRAIN\r\n        9 - raise/lower to reshape
+    and make it distinctly different from original\r\n        modifications: \r\n       
+    changed the look of island \r\n        made water send you to game over screen\r\n\r\n       
+    10 - paint with at least 2 new textures to replace all the textures used in the
+    book\r\n        (add source url or package name)\r\n        texture 1 source:
+    Grass texture seamless low poly - blueskysere\r\n        texture 2 source:  Cliff
+    Texture Seamless Rock Stone Texture Seamless 12661 saved in google\r\n       
+    extra modification:\r\n        added a game over screen \r\n        made dark\r\n       
+    Ui sorce \r\n        https://wallpaperaccess.com/night-forest\r\n        gameover
+    screen\nSpinning Cat - OIIA Cat Spin - Apps en Google Play in google"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -835,7 +866,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -381.6344, w: 0}
+  m_margin: {x: -1361.6162, y: 0, z: -381.6344, w: -247.15326}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -907,7 +938,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c4a0285befdbe334892426bc1f960495, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e9e05bec677cd174ea2ecc0ad0c76077, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
